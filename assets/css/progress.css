@@ -1,0 +1,122 @@
+.art{
+    background: url("../images/b1.jpg")center center no-repeat;
+  /* 設定區塊高度 */
+    min-height: 900px;
+  /* 背景自動縮放/固定 */
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /* justify-content: center;
+     border: 2px solid plum;
+     border-radius:0px;
+     background-color: plum;
+     margin-top: 10%;*/
+   }
+   .h2{
+     font-size: 20px;
+     font-family: 標楷體;
+   }
+ .progress {
+   background: rgba(255,255,255,0.1);
+   justify-content: flex-start;
+   border-radius: 100px;
+   align-items: center;
+   position: relative;
+   padding: 0 5px;
+   display: flex;
+   height: 40px;
+   width: 1000px;
+   font-size: 20px;
+ 
+ }
+ 
+ .progress-value1 {
+   animation: load1 3s normal forwards;
+  /* box-shadow: 0 10px 40px -10px #000;*/
+   border-radius: 100px;
+   background: rgb(143, 19, 19);
+   height: 30px;
+   width: 0;
+   animation-delay:4s;
+ }
+ 
+ @keyframes load1 {
+   0% { width: 0; }
+   100% { width: 70%; }
+ }
+ .progress-value2 {
+   animation: load2 3s normal forwards;
+  /* box-shadow: 0 10px 40px -10px #000;*/
+   border-radius: 100px;
+   background: rgb(19, 143, 112);
+   height: 30px;
+   width: 0;
+   animation-delay:4s;
+ }
+ 
+ @keyframes load2 {
+   0% { width: 0; }
+   100% { width: 85%; }
+ }
+ .progress-value3 {
+   animation: load3 3s normal forwards;
+  /* box-shadow: 0 10px 40px -10px #000;*/
+   border-radius: 100px;
+   background: rgb(85, 35, 201);
+   height: 30px;
+   width: 0;
+   animation-delay:4s;
+  
+ }
+ @keyframes load3 {
+   0% { width: 0; }
+   100% { width: 70%; }
+ }
+ .progress-value4 {
+   animation: load4 3s normal forwards;
+  /* box-shadow: 0 10px 40px -10px #000;*/
+   border-radius: 100px;
+   background: rgb(114, 139, 73);
+   height: 30px;
+   width: 0;
+   animation-delay:4s;
+  
+ }
+ @keyframes load4 {
+   0% { width: 0; }
+   100% { width: 60%; }
+ }
+ .progress-value5 {
+   animation: load5 3s normal forwards;
+  /* box-shadow: 0 10px 40px -10px #000;*/
+   border-radius: 100px;
+   background: rgb(194, 221, 228);
+   height: 30px;
+   width: 0;
+   animation-delay:4s;
+  
+ }
+ @keyframes load5 {
+   0% { width: 0; }
+   100% { width: 80%; }
+ }
+ .progress-value6 {
+  animation: load1 3s normal forwards;
+ /* box-shadow: 0 10px 40px -10px #000;*/
+  border-radius: 100px;
+  background: orange;
+  height: 30px;
+  width: 0;
+  animation-delay:4s;
+}
+
+@keyframes load6 {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+ .title2{
+     margin-top: 0%;
+     font-family:"Brush Script MT";
+     text-align: center;
+     font-size:60px;
+ }

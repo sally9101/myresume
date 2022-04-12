@@ -1,0 +1,35 @@
+.parallax {
+    /* 設定背景圖片/居中/不重覆 */
+    background: url("../images/b1.jpg")center center no-repeat;
+  /* 設定區塊高度 */
+    min-height: 1200px;
+  /* 背景自動縮放/固定 */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* 設定背景圖片/居中/不重覆 */
+    background: url("../images/b1.jpg")center center no-repeat;
+  /* 設定區塊高度 */
+    min-height: 400px;
+  /* 背景自動縮放/固定 */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .parallax4 {
+    /* 設定背景圖片/居中/不重覆 */
+    background: url("../images/b1.jpg")center center no-repeat;
+  /* 設定區塊高度 */
+    min-height: 1000px;
+  /* 背景自動縮放/固定 */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .parallax5 {
+    background: url("../images/b1.jpg")center center no-repeat;
+  /* 設定區塊高度 */
+    min-height: 1000px;
+  /* 背景自動縮放/固定 */
+    background-attachment: fixed;
+    background-size: cover;
+  }
